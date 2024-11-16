@@ -1,0 +1,124 @@
+フォルダー パスの一覧:  ボリューム Local Disk
+ボリューム シリアル番号は 5486-CA07 です
+C:.
+|   .gitattributes
+|   folder_structure.txt
+|   ReadMe.md
+|   requirements.txt
+|   
++---docs
+|   |   20241030_地理空間情報課_GAT.pdf
+|   |   勉強会受講前の環境設定.docx
+|   |   国土交通省 データコンペ参加者向け勉強会.pptx
+|   |   国土交通省_地理空間情報データチャレンジ_勉強会シラバス.xlsx
+|   |   
+|   +---memo
+|   |       Meeting_memo.ini
+|   |       
+|   \---movie
+|           【編集済】第1回 国土交通省 テ゛ータコンヘ゜参加者向け勉強会_GA.mp4
+|           
+\---src
+    |   modeling_ver1.4.ipynb
+    |   modeling_ver1.5.ipynb
+    |   modeling_ver1.6.ipynb
+    |   modeling_ver1.7.ipynb
+    |   version_infomation.md
+    |   国土交通省 地理空間情報テ゛ータチャレンシ゛_国土数値情報編_勉強会.ipynb
+    |   
+    +---backup
+    |   |   国土交通省 地理空間情報テ゛ータチャレンシ゛_国土数値情報編_勉強会.ipynb
+    |   |   国土交通省 地理空間情報テ゛ータチャレンシ゛_国土数値情報編_勉強会.ipynb_結果確認用
+    |   |   
+    |   \---data
+    +---config
+    |       config.ini
+    |       data_definition.xlsx
+    |       date_deginition_edit.xlsx
+    |       date_deginition_edited_ver1.1.xlsx
+    |       date_deginition_edited_ver1.2.xlsx
+    |       
+    +---data_analyaze
+    |       clustering_high_price.ipynb
+    |       delete_similer_data_from_train.ipynb
+    |       down_up_sampling.ipynb
+    |       make_sample_test_data.ipynb
+    |       train_data_average_value.xlsx
+    |       train_data_missing_percentage.xlsx
+    |       
+    +---function
+    |   |   data_processing.py
+    |   |   modeling.py
+    |   |   __init__.py
+    |   |   
+    |   \---__pycache__
+    |           data_processing.cpython-312.pyc
+    |           modeling.cpython-312.pyc
+    |           __init__.cpython-312.pyc
+    |           
+    +---input
+    |   |   test.csv
+    |   |   train.csv
+    |   |   
+    |   \---国土数値情報データ
+    |       +---人口推移
+    |       |       500m_mesh_2018_14.dbf
+    |       |       500m_mesh_2018_14.prj
+    |       |       500m_mesh_2018_14.shp
+    |       |       500m_mesh_2018_14.shx
+    |       |       
+    |       +---公示地価_神奈川
+    |       |       KS-META-L01-24_14.xml
+    |       |       L01-24_14.dbf
+    |       |       L01-24_14.geojson
+    |       |       L01-24_14.prj
+    |       |       L01-24_14.shp
+    |       |       L01-24_14.shx
+    |       |       L01-24_14.xml
+    |       |       
+    |       +---洪水浸水想定区域_計画規模
+    |       |       A31b-10-23_10_5339.dbf
+    |       |       A31b-10-23_10_5339.prj
+    |       |       A31b-10-23_10_5339.shp
+    |       |       A31b-10-23_10_5339.shx
+    |       |       
+    |       \---駅別乗降客数
+    |           |   KS-META-S12-23.xml
+    |           |   S12-23.xml
+    |           |   S12-23_NumberOfPassengers.dbf
+    |           |   S12-23_NumberOfPassengers.geojson
+    |           |   S12-23_NumberOfPassengers.prj
+    |           |   S12-23_NumberOfPassengers.shp
+    |           |   S12-23_NumberOfPassengers.shx
+    |           |   
+    |           \---utf8
+    |                   S12-23.xml
+    |                   S12-23_NumberOfPassengers.dbf
+    |                   S12-23_NumberOfPassengers.geojson
+    |                   S12-23_NumberOfPassengers.prj
+    |                   S12-23_NumberOfPassengers.shp
+    |                   S12-23_NumberOfPassengers.shx
+    |                   
+    \---output
+        +---ver1.3
+        |       df_test.html
+        |       df_train.html
+        |       submit.csv
+        |       
+        +---ver1.4
+        |       shap_summary_plots.jpg
+        |       submit.csv
+        |       
+        +---ver1.5
+        |       model.pkl
+        |       predict_result.jpg
+        |       shap_summary_plots.jpg
+        |       submit.csv
+        |       
+        +---ver1.6
+        |       dbscan_model.pkl
+        |       model.pkl
+        |       predict_result.jpg
+        |       submit.csv
+        |       
+        \---ver1.7
