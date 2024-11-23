@@ -2,9 +2,11 @@
 ボリューム シリアル番号は 5486-CA07 です
 C:.
 |   .gitattributes
+|   .gitignore
 |   folder_structure.txt
 |   ReadMe.md
 |   requirements.txt
+|   tree.txt
 |   
 +---docs
 |   |   20241030_地理空間情報課_GAT.pdf
@@ -19,12 +21,9 @@ C:.
 |           【編集済】第1回 国土交通省 テ゛ータコンヘ゜参加者向け勉強会_GA.mp4
 |           
 \---src
-    |   modeling_ver1.4.ipynb
-    |   modeling_ver1.5.ipynb
-    |   modeling_ver1.6.ipynb
-    |   modeling_ver1.7.ipynb
+    |   make_train_data.ipynb
+    |   modeling.ipynb
     |   version_infomation.md
-    |   国土交通省 地理空間情報テ゛ータチャレンシ゛_国土数値情報編_勉強会.ipynb
     |   
     +---backup
     |   |   国土交通省 地理空間情報テ゛ータチャレンシ゛_国土数値情報編_勉強会.ipynb
@@ -32,12 +31,14 @@ C:.
     |   |   
     |   \---data
     +---config
-    |       config.ini
-    |       data_definition.xlsx
-    |       date_deginition_edit.xlsx
-    |       date_deginition_edited_ver1.1.xlsx
-    |       date_deginition_edited_ver1.2.xlsx
-    |       
+    |   |   config.ini
+    |   |   date_deginition.xlsx
+    |   |   
+    |   \---old
+    |           data_definition_original.xlsx
+    |           date_deginition_edited_ver1.0.xlsx
+    |           date_deginition_edited_ver1.1.xlsx
+    |           
     +---data_analyaze
     |       clustering_high_price.ipynb
     |       delete_similer_data_from_train.ipynb
@@ -58,7 +59,9 @@ C:.
     |           
     +---input
     |   |   test.csv
+    |   |   test_edited.csv
     |   |   train.csv
+    |   |   train_edited.csv
     |   |   
     |   \---国土数値情報データ
     |       +---人口推移
@@ -100,25 +103,10 @@ C:.
     |                   S12-23_NumberOfPassengers.shx
     |                   
     \---output
-        +---ver1.3
-        |       df_test.html
-        |       df_train.html
-        |       submit.csv
-        |       
-        +---ver1.4
-        |       shap_summary_plots.jpg
-        |       submit.csv
-        |       
-        +---ver1.5
-        |       model.pkl
-        |       predict_result.jpg
-        |       shap_summary_plots.jpg
-        |       submit.csv
-        |       
-        +---ver1.6
-        |       dbscan_model.pkl
-        |       model.pkl
-        |       predict_result.jpg
-        |       submit.csv
-        |       
-        \---ver1.7
+            dbscan_model.pkl
+            model.pkl
+            predict_result.jpg
+            predict_result_plot.jpg
+            shap_summary_plot.jpg
+            submit.csv
+            
